@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="主页面"><!-- 主页面 -->
+        <locator name="admin" type="css" value="#userMenu a" timeout="5">userMenu</locator>
+	    <locator name="项目" type="css" value="a#menuproject" timeout="5">clickmenuproject</locator>
+</page>

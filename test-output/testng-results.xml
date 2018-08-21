@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="4" total="5" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<span style="color:#2A00FF">【info】com.myfirstuiframework.WebDriverFactory: 杀死chrome进程</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#2A00FF">【info】com.myfirstuiframework.DriverUtils: 显示xml内的值com.myfirstuiframework.Locator@16d0826</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#2A00FF">【info】com.myfirstuiframework.DriverUtils: 显示xml内的值com.myfirstuiframework.Locator@1b5f5d2</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#2A00FF">【info】com.myfirstuiframework.DriverUtils: 显示xml内的值com.myfirstuiframework.Locator@1fa8cc5</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#2A00FF">【info】com.myfirstuiframework.DriverUtils: 打开网址:http://127.0.0.1/zentao/user-login.html</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#2A00FF">【info】com.myfirstuiframework.DriverUtils: 在元素 用户名输入框输入admin</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#2A00FF">【info】com.myfirstuiframework.DriverUtils: 在元素 密码输入框输入123456</span><br />]]>
+    </line>
+    <line>
+      <![CDATA[<span style="color:#2A00FF">【info】com.myfirstuiframework.DriverUtils: 点击元素  登录按钮</span><br />]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24457" started-at="2018-06-11T03:36:43Z" finished-at="2018-06-11T03:37:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24457" started-at="2018-06-11T03:36:43Z" finished-at="2018-06-11T03:37:07Z">
+      <class name="com.myfirstproject.loginTest">
+        <test-method status="PASS" signature="setDriver()[pri:0, instance:com.myfirstproject.loginTest@4f787b]" name="setDriver" is-config="true" duration-ms="8601" started-at="2018-06-11T11:36:43Z" finished-at="2018-06-11T11:36:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:#2A00FF">【info】com.myfirstuiframework.WebDriverFactory: 杀死chrome进程</span><br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="FAIL" signature="f01()[pri:0, instance:com.myfirstproject.loginTest@4f787b]" name="f01" duration-ms="13655" started-at="2018-06-11T11:36:51Z" finished-at="2018-06-11T11:37:05Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.myfirstuiframework.WebElementUtils.getLocator(WebElementUtils.java:123)
+	at com.myfirstpages.MainPage.<init>(MainPage.java:16)
+	at com.myfirstactions.clickLoginButton.loginSucess(clickLoginButton.java:32)
+	at com.myfirstactions.clickMenuProject.clickProjectLoginTest(clickMenuProject.java:33)
+	at com.myfirstproject.loginTest.f01(loginTest.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<span style="color:#2A00FF">【info】com.myfirstuiframework.DriverUtils: 显示xml内的值com.myfirstuiframework.Locator@16d0826</span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:#2A00FF">【info】com.myfirstuiframework.DriverUtils: 显示xml内的值com.myfirstuiframework.Locator@1b5f5d2</span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:#2A00FF">【info】com.myfirstuiframework.DriverUtils: 显示xml内的值com.myfirstuiframework.Locator@1fa8cc5</span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:#2A00FF">【info】com.myfirstuiframework.DriverUtils: 打开网址:http://127.0.0.1/zentao/user-login.html</span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:#2A00FF">【info】com.myfirstuiframework.DriverUtils: 在元素 用户名输入框输入admin</span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:#2A00FF">【info】com.myfirstuiframework.DriverUtils: 在元素 密码输入框输入123456</span><br />]]>
+            </line>
+            <line>
+              <![CDATA[<span style="color:#2A00FF">【info】com.myfirstuiframework.DriverUtils: 点击元素  登录按钮</span><br />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f01 -->
+        <test-method status="PASS" signature="closeWindow()[pri:0, instance:com.myfirstproject.loginTest@4f787b]" name="closeWindow" is-config="true" duration-ms="2167" started-at="2018-06-11T11:37:05Z" finished-at="2018-06-11T11:37:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWindow -->
+      </class> <!-- com.myfirstproject.loginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

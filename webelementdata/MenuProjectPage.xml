@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="项目页面"><!-- 项目页面 -->
+        <locator name="添加项目" type="css" value="#submenucreate" timeout="5">menuProject</locator>
+</page>

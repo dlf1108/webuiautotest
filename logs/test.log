@@ -1,0 +1,8 @@
+2018-06-11 11:36:43.713 INFO  com.myfirstutils.Log 21 info - com.myfirstuiframework.WebDriverFactory: 杀死chrome进程
+2018-06-11 11:36:54.407 INFO  com.myfirstutils.Log 21 info - com.myfirstuiframework.DriverUtils: 显示xml内的值com.myfirstuiframework.Locator@16d0826
+2018-06-11 11:36:54.407 INFO  com.myfirstutils.Log 21 info - com.myfirstuiframework.DriverUtils: 显示xml内的值com.myfirstuiframework.Locator@1b5f5d2
+2018-06-11 11:36:54.407 INFO  com.myfirstutils.Log 21 info - com.myfirstuiframework.DriverUtils: 显示xml内的值com.myfirstuiframework.Locator@1fa8cc5
+2018-06-11 11:37:03.155 INFO  com.myfirstutils.Log 21 info - com.myfirstuiframework.DriverUtils: 打开网址:http://127.0.0.1/zentao/user-login.html
+2018-06-11 11:37:04.027 INFO  com.myfirstutils.Log 21 info - com.myfirstuiframework.DriverUtils: 在元素 用户名输入框输入admin
+2018-06-11 11:37:04.297 INFO  com.myfirstutils.Log 21 info - com.myfirstuiframework.DriverUtils: 在元素 密码输入框输入123456
+2018-06-11 11:37:05.400 INFO  com.myfirstutils.Log 21 info - com.myfirstuiframework.DriverUtils: 点击元素  登录按钮

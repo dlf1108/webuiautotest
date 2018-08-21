@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="添加项目"><!-- 添加项目 -->
+	    <locator name="项目名称" type="css" value="#name" timeout="10">inputName</locator>
+	    <locator name="项目代号" type="css" value="#code" timeout="3">codeNumber</locator>
+	    <locator name="开始日期" type="css" value="#begin" timeout="5">beginDate</locator>
+	    <locator name="今日" type="xpath" value="html/body/div[3]/div[3]/table/tfoot/tr/th" timeout="5">selectDate</locator>
+	    <locator name="一个月" type="css" value="#delta31" timeout="5">clickDelta31</locator>
+	    <locator name="团队名称" type="css" value="#team" timeout="5">inputTeamName</locator>	    
+	    <locator name="项目类型" type="css" value="select[id='type']" timeout="5">porjectType</locator>
+        <locator name="具体项目类型" type="css" value="option[value='sprint']" timeout="5">selectPorjectType</locator>
+        <locator name="进入iframe页" type="css" value="iframe.ke-edit-iframe" timeout="5">inIframePage</locator>
+        <locator name="iframe页输入栏" type="css" value="html body" timeout="5">inputContect</locator>
+        <locator name="访问控制" type="css" value="td div +div label" timeout="5">selectControl</locator>
+        <locator name="提交" type="css" value="button#submit" timeout="5">clickSubmit</locator>
+</page>

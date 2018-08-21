@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page name="点击提交后跳转页面"><!-- 点击提交后跳转页面 -->
+        <locator name="返回项目首页" type="xpath" value="//*[@id='tipsModal']/div[2]/div/div/a[4]" timeout="5">returnMenuPorjectPage</locator>
+</page>
